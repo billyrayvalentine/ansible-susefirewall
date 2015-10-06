@@ -1,7 +1,4 @@
 ---
-# Install /etc/sysconfig/SuSEfirewall2
-- debug: var=susefirewall_config
-
 - name: Install SuSEfirewall2 rpm
   zypper:
     name: SuSEfirewall2

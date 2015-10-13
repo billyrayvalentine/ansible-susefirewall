@@ -4,10 +4,12 @@ galaxy_info:
   description: Install and configure SuSEfirewall2 on openSUSE
   company: Cerium Level 5 LTD
   license: MIT
-  #min_ansible_version: 1.9
+  min_ansible_version: 1.2
   platforms:
   - name: opensuse
     versions:
     - all
   categories:
   - system
+  dependencies: []
+
